@@ -4,8 +4,7 @@
   "description": "SURF",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -25,10 +24,10 @@
     "express-session": "^1.17.0",
     "mongoose": "^5.8.4",
     "passport": "^0.4.1",
+    "bcryptjs": "^2.4.3",
     "passport-local": "^1.0.0"
   },
   "devDependencies": {
-    "bcryptjs": "^2.4.3",
     "nodemon": "^2.0.2"
   }
 }
