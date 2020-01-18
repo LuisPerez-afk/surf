@@ -12,6 +12,9 @@ router.get('/login', forwardAuthenticated, (req, res) => res.render('login'));
 // Register Page
 router.get('/register', forwardAuthenticated, (req, res) => res.render('register'));
 
+//Welcome Page
+router.get('/welcome', forwardAuthenticated, (req, res) => res.render('welcome'));
+
 // Register
 router.post('/register', (req, res) => {
   const { name, email, password, password2 } = req.body;
